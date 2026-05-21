@@ -38,6 +38,13 @@ app.add_middleware(
 DATA_DIR = os.path.join(_BASE_DIR, "data")
 PUBLIC_DIR = os.path.join(_BASE_DIR, "public")
 
+def get_index_path():
+    p1 = os.path.join(_THIS_DIR, "index.html")
+    if os.path.exists(p1):
+        return p1
+    return os.path.join(PUBLIC_DIR, "index.html")
+
+
 
 # ─── Dataset Loading ───────────────────────────────────────────────────────────
 
@@ -520,7 +527,7 @@ async def download_sample_reviews():
 
 @app.get("/")
 async def serve_index():
-    index = os.path.join(PUBLIC_DIR, "index.html")
+    index = get_index_path()
     if os.path.exists(index):
         return FileResponse(index)
     return {"status": "RetailMind API running", "docs": "/docs"}
@@ -531,7 +538,7 @@ async def serve_spa(full_path: str):
     # Don't intercept API routes
     if full_path.startswith("api/"):
         raise HTTPException(status_code=404)
-    index = os.path.join(PUBLIC_DIR, "index.html")
+    index = get_index_path()
     if os.path.exists(index):
         return FileResponse(index)
     raise HTTPException(status_code=404)
