@@ -1,0 +1,86 @@
+product_id,product_name,category,price,cost,stock_quantity,avg_daily_sales,reorder_level,avg_rating,review_count
+SC001,Classic White Linen Tee,Tops,799,320,45,8.2,30,4.3,124
+SC002,Floral Wrap Blouse,Tops,1299,520,12,4.1,20,4.1,87
+SC003,Striped Cotton Kurta,Tops,1599,640,78,6.5,25,4.5,203
+SC004,Sleeveless Crop Tank,Tops,699,280,5,3.8,15,3.9,56
+SC005,Embroidered Silk Top,Tops,2499,1200,30,2.3,15,4.6,78
+SC006,Casual Denim Shirt,Tops,1799,720,60,5.4,20,4.2,145
+SC007,Ruched Puff Sleeve Top,Tops,1199,480,8,6.2,20,4.0,92
+SC008,Vintage Band Tee,Tops,899,360,90,9.1,30,4.4,168
+SC009,Sheer Organza Top,Tops,1899,760,22,3.2,15,3.8,43
+SC010,Bohemian Print Blouse,Tops,1499,600,35,4.7,20,4.3,112
+SC011,Ribbed Knit Crop Top,Tops,999,400,15,5.9,20,4.1,89
+SC012,Oversized Graphic Tee,Tops,1099,440,55,7.3,25,4.5,201
+SC013,Off-Shoulder Ruffled Top,Tops,1349,540,18,4.4,18,3.7,61
+SC014,Tulle Overlay Blouse,Tops,2199,880,9,2.1,12,4.2,44
+SC015,Polo Collar Shirt,Tops,1399,560,42,5.1,20,4.3,133
+SC016,Velvet Party Dress,Dresses,3499,1400,28,3.9,15,4.7,189
+SC017,Floral Midi Dress,Dresses,2799,1120,44,6.2,20,4.4,245
+SC018,Little Black Dress,Dresses,2199,880,62,8.5,25,4.6,312
+SC019,Bohemian Maxi Dress,Dresses,3299,1320,19,3.4,15,4.2,134
+SC020,Wrap Shirt Dress,Dresses,2499,1000,38,5.7,20,4.3,178
+SC021,Bodycon Party Dress,Dresses,2999,1200,6,7.8,20,3.5,67
+SC022,Summer Sundress,Dresses,1799,720,55,9.3,30,4.5,289
+SC023,Embroidered Ethnic Dress,Dresses,4199,1680,15,2.8,12,4.8,102
+SC024,Slip Dress,Dresses,1999,800,40,6.1,20,4.0,155
+SC025,Pleated Formal Dress,Dresses,3199,1280,22,3.6,15,4.4,98
+SC026,Knit Sweater Dress,Dresses,2699,1080,33,4.9,18,4.3,143
+SC027,Off-Shoulder Ball Gown,Dresses,6999,2800,4,1.2,8,3.2,28
+SC028,Tiered Ruffle Dress,Dresses,2999,1200,18,4.3,15,4.5,167
+SC029,Linen Shirt Dress,Dresses,2299,920,47,5.8,20,4.2,122
+SC030,Floral Wrap Midi,Dresses,2599,1040,29,4.5,18,4.4,138
+SC031,High-Waist Skinny Jeans,Bottoms,2299,920,65,7.8,25,4.5,287
+SC032,Wide Leg Palazzo Pants,Bottoms,1999,800,42,5.6,20,4.3,193
+SC033,Floral Midi Skirt,Bottoms,1599,640,28,4.2,18,4.1,109
+SC034,Denim Mini Skirt,Bottoms,1399,560,50,6.9,22,4.4,234
+SC035,Pleated Maxi Skirt,Bottoms,1799,720,35,4.8,18,4.2,156
+SC036,Cargo Trousers,Bottoms,2199,880,48,5.3,20,4.0,145
+SC037,Satin Midi Skirt,Bottoms,2499,1000,20,3.7,15,4.6,87
+SC038,Linen Wide Leg Pants,Bottoms,1899,760,60,6.4,22,4.3,198
+SC039,Bicycle Shorts,Bottoms,799,320,80,8.9,30,4.1,267
+SC040,Asymmetric Hem Skirt,Bottoms,1699,680,14,3.1,15,3.9,52
+SC041,Straight Leg Trousers,Bottoms,2099,840,38,5.2,18,4.4,172
+SC042,Wrap Mini Skirt,Bottoms,1299,520,25,4.6,18,4.2,118
+SC043,Track Pants,Bottoms,1199,480,70,7.5,25,4.0,221
+SC044,Flared Jeans,Bottoms,2499,1000,30,4.9,18,4.6,148
+SC045,Lace Trim Skirt,Bottoms,1799,720,11,2.9,15,4.3,73
+SC046,Winter Puffer Jacket,Outerwear,5999,2400,22,2.4,12,4.7,134
+SC047,Trench Coat,Outerwear,7499,3000,15,1.8,10,4.6,89
+SC048,Denim Jacket,Outerwear,3499,1400,38,4.2,15,4.5,212
+SC049,Oversized Blazer,Outerwear,4999,2000,25,3.3,12,4.4,156
+SC050,Faux Leather Jacket,Outerwear,5499,2200,10,2.9,10,4.3,98
+SC051,Woolen Overcoat,Outerwear,8999,3600,8,1.4,8,4.8,67
+SC052,Crop Denim Jacket,Outerwear,3199,1280,30,3.6,12,4.2,143
+SC053,Quilted Puffer Vest,Outerwear,3999,1600,17,2.7,10,4.4,78
+SC054,Checked Blazer,Outerwear,5999,2400,12,2.1,10,4.5,112
+SC055,Sherpa Lined Jacket,Outerwear,4499,1800,20,2.8,12,4.3,95
+SC056,Windbreaker Jacket,Outerwear,3799,1520,28,3.4,12,4.1,124
+SC057,Cape Coat,Outerwear,6499,2600,6,1.6,8,4.6,45
+SC058,Military Utility Jacket,Outerwear,4299,1720,18,2.5,12,4.2,87
+SC059,Classic Peacoat,Outerwear,6999,2800,9,1.9,10,4.7,56
+SC060,Teddy Bear Coat,Outerwear,5299,2120,14,2.2,10,4.5,102
+SC061,Pearl Stud Earrings,Accessories,599,120,150,12.5,50,4.4,345
+SC062,Chain Link Necklace,Accessories,1299,260,80,8.7,30,4.3,234
+SC063,Leather Belt,Accessories,999,200,60,7.2,25,4.2,189
+SC064,Silk Scrunchie Set,Accessories,499,100,200,15.3,60,4.5,412
+SC065,Canvas Tote Bag,Accessories,1499,300,45,6.8,20,4.6,287
+SC066,Sunglasses Cat Eye,Accessories,1999,400,35,5.4,18,4.3,198
+SC067,Woven Straw Hat,Accessories,1299,260,55,7.1,22,4.4,223
+SC068,Silk Scarf,Accessories,1799,360,30,4.9,18,4.5,156
+SC069,Beaded Bracelet Set,Accessories,799,160,90,9.8,35,4.2,289
+SC070,Hair Clips Set,Accessories,399,80,180,14.2,55,4.3,367
+SC071,Crossbody Mini Bag,Accessories,2499,500,22,4.3,15,4.6,134
+SC072,Ankle Socks Set,Accessories,299,60,250,18.5,80,4.0,456
+SC073,Coin Purse,Accessories,699,140,70,8.1,25,4.1,198
+SC074,Enamel Pin Set,Accessories,499,100,120,10.4,40,4.3,267
+SC075,Wide Headband,Accessories,599,120,100,9.6,35,4.4,312
+SC076,Tassel Earrings,Accessories,799,160,65,7.8,25,4.2,178
+SC077,Bucket Hat,Accessories,999,200,48,6.5,20,4.5,143
+SC078,Layered Necklace Set,Accessories,1599,320,28,5.2,18,4.7,112
+SC079,Fabric Headscarf,Accessories,899,180,85,9.1,30,4.3,234
+SC080,Tortoiseshell Hair Claw,Accessories,649,130,110,11.3,40,4.4,289
+SC081,Chic Linen Blazer,Tops,3299,1320,18,2.9,12,4.5,87
+SC082,Summer Kaftan,Dresses,2899,1160,24,4.1,15,4.3,118
+SC083,High Waist Shorts,Bottoms,1299,520,40,6.3,20,4.4,167
+SC084,Rain Jacket,Outerwear,4799,1920,13,2.0,10,4.2,78
+SC085,Leather Card Holder,Accessories,899,180,55,6.7,20,4.6,145
