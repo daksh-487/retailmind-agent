@@ -445,6 +445,20 @@ def _get_client():
     return OpenAI(api_key=key)
 
 
+@app.get("/api/debug")
+async def debug_paths():
+    import os
+    return {
+        "this_dir": _THIS_DIR,
+        "base_dir": _BASE_DIR,
+        "public_dir": PUBLIC_DIR,
+        "this_dir_contents": os.listdir(_THIS_DIR) if os.path.exists(_THIS_DIR) else [],
+        "base_dir_contents": os.listdir(_BASE_DIR) if os.path.exists(_BASE_DIR) else [],
+        "public_dir_contents": os.listdir(PUBLIC_DIR) if os.path.exists(PUBLIC_DIR) else [],
+        "exists_index": os.path.exists(os.path.join(PUBLIC_DIR, "index.html")),
+    }
+
+
 @app.post("/api/stats")
 async def get_stats(payload: DatasetPayload):
     products_df, _ = load_dataset(payload.products_csv, payload.reviews_csv)
